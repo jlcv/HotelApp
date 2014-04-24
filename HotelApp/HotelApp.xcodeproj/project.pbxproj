@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8E6B9D19080DDE001AD403 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE860F619071F980095CCC5 /* Lato-Bold.ttf */; };
+		8E8E6B9E19080DE2001AD403 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE860F719071F980095CCC5 /* Lato-Italic.ttf */; };
+		8E8E6B9F19080DE6001AD403 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE860F819071F980095CCC5 /* Lato-Light.ttf */; };
+		8E8E6BA019080DEA001AD403 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE860F919071F980095CCC5 /* Lato-Regular.ttf */; };
+		8EDF86E118F43109002E8166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF86E018F43109002E8166 /* Foundation.framework */; };
+		8EDF86E318F43109002E8166 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF86E218F43109002E8166 /* CoreGraphics.framework */; };
+		8EDF86E518F43109002E8166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF86E418F43109002E8166 /* UIKit.framework */; };
+		8EDF86EB18F43109002E8166 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF86E918F43109002E8166 /* InfoPlist.strings */; };
+		8EDF86ED18F43109002E8166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF86EC18F43109002E8166 /* main.m */; };
+		8EDF86F118F43109002E8166 /* HTLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF86F018F43109002E8166 /* HTLAppDelegate.m */; };
+		8EDF86F418F43109002E8166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF86F218F43109002E8166 /* Main.storyboard */; };
+		8EDF86F718F43109002E8166 /* HTLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF86F618F43109002E8166 /* HTLFirstViewController.m */; };
+		8EDF86FA18F43109002E8166 /* HTLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF86F918F43109002E8166 /* HTLSecondViewController.m */; };
+		8EDF86FC18F43109002E8166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF86FB18F43109002E8166 /* Images.xcassets */; };
+		8EDF870318F43109002E8166 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF870218F43109002E8166 /* XCTest.framework */; };
+		8EDF870418F43109002E8166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF86E018F43109002E8166 /* Foundation.framework */; };
+		8EDF870518F43109002E8166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF86E418F43109002E8166 /* UIKit.framework */; };
+		8EDF870D18F43109002E8166 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF870B18F43109002E8166 /* InfoPlist.strings */; };
+		8EDF870F18F43109002E8166 /* HotelAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF870E18F43109002E8166 /* HotelAppTests.m */; };
+		8EDF871A18F43CE0002E8166 /* HTLCandadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF871918F43CE0002E8166 /* HTLCandadoViewController.m */; };
+		8EDF871D18F43D18002E8166 /* HTLDetallesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF871C18F43D18002E8166 /* HTLDetallesViewController.m */; };
+		8EDF876719023054002E8166 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF876619023054002E8166 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8EE860E319071C790095CCC5 /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860BE19071C780095CCC5 /* FUIAlertView.m */; };
+		8EE860E419071C790095CCC5 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860C019071C780095CCC5 /* FUIButton.m */; };
+		8EE860E519071C790095CCC5 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860C219071C780095CCC5 /* FUICellBackgroundView.m */; };
+		8EE860E619071C790095CCC5 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860C419071C780095CCC5 /* FUIPopoverBackgroundView.m */; };
+		8EE860E719071C790095CCC5 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860C619071C780095CCC5 /* FUISegmentedControl.m */; };
+		8EE860E819071C790095CCC5 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860C819071C780095CCC5 /* FUISwitch.m */; };
+		8EE860E919071C790095CCC5 /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860CA19071C780095CCC5 /* FUITextField.m */; };
+		8EE860EA19071C790095CCC5 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860CC19071C780095CCC5 /* UIBarButtonItem+FlatUI.m */; };
+		8EE860EB19071C790095CCC5 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860CE19071C780095CCC5 /* UIColor+FlatUI.m */; };
+		8EE860EC19071C790095CCC5 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860D019071C780095CCC5 /* UIFont+FlatUI.m */; };
+		8EE860ED19071C790095CCC5 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860D219071C780095CCC5 /* UIImage+FlatUI.m */; };
+		8EE860EE19071C790095CCC5 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860D419071C790095CCC5 /* UINavigationBar+FlatUI.m */; };
+		8EE860EF19071C790095CCC5 /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860D619071C790095CCC5 /* UIPopoverController+FlatUI.m */; };
+		8EE860F019071C790095CCC5 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860D819071C790095CCC5 /* UIProgressView+FlatUI.m */; };
+		8EE860F119071C790095CCC5 /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860DA19071C790095CCC5 /* UISlider+FlatUI.m */; };
+		8EE860F219071C790095CCC5 /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860DC19071C790095CCC5 /* UIStepper+FlatUI.m */; };
+		8EE860F319071C790095CCC5 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860DE19071C790095CCC5 /* UITabBar+FlatUI.m */; };
+		8EE860F419071C790095CCC5 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860E019071C790095CCC5 /* UITableViewCell+FlatUI.m */; };
+		8EE860F519071C790095CCC5 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE860E219071C790095CCC5 /* UIToolbar+FlatUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EDF870618F43109002E8166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EDF86D518F43109002E8166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDF86DC18F43109002E8166;
+			remoteInfo = HotelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EDF86DD18F43109002E8166 /* HotelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDF86E018F43109002E8166 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EDF86E218F43109002E8166 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EDF86E418F43109002E8166 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EDF86E818F43109002E8166 /* HotelApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotelApp-Info.plist"; sourceTree = "<group>"; };
+		8EDF86EA18F43109002E8166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EDF86EC18F43109002E8166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EDF86EE18F43109002E8166 /* HotelApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotelApp-Prefix.pch"; sourceTree = "<group>"; };
+		8EDF86EF18F43109002E8166 /* HTLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTLAppDelegate.h; sourceTree = "<group>"; };
+		8EDF86F018F43109002E8166 /* HTLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTLAppDelegate.m; sourceTree = "<group>"; };
+		8EDF86F318F43109002E8166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EDF86F518F43109002E8166 /* HTLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTLFirstViewController.h; sourceTree = "<group>"; };
+		8EDF86F618F43109002E8166 /* HTLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTLFirstViewController.m; sourceTree = "<group>"; };
+		8EDF86F818F43109002E8166 /* HTLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTLSecondViewController.h; sourceTree = "<group>"; };
+		8EDF86F918F43109002E8166 /* HTLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTLSecondViewController.m; sourceTree = "<group>"; };
+		8EDF86FB18F43109002E8166 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EDF870118F43109002E8166 /* HotelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDF870218F43109002E8166 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8EDF870A18F43109002E8166 /* HotelAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotelAppTests-Info.plist"; sourceTree = "<group>"; };
+		8EDF870C18F43109002E8166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EDF870E18F43109002E8166 /* HotelAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelAppTests.m; sourceTree = "<group>"; };
+		8EDF871818F43CE0002E8166 /* HTLCandadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLCandadoViewController.h; sourceTree = "<group>"; };
+		8EDF871918F43CE0002E8166 /* HTLCandadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLCandadoViewController.m; sourceTree = "<group>"; };
+		8EDF871B18F43D18002E8166 /* HTLDetallesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLDetallesViewController.h; sourceTree = "<group>"; };
+		8EDF871C18F43D18002E8166 /* HTLDetallesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLDetallesViewController.m; sourceTree = "<group>"; };
+		8EDF876519023054002E8166 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		8EDF876619023054002E8166 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8EE860BD19071C780095CCC5 /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIAlertView.h; sourceTree = "<group>"; };
+		8EE860BE19071C780095CCC5 /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIAlertView.m; sourceTree = "<group>"; };
+		8EE860BF19071C780095CCC5 /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		8EE860C019071C780095CCC5 /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		8EE860C119071C780095CCC5 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUICellBackgroundView.h; sourceTree = "<group>"; };
+		8EE860C219071C780095CCC5 /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUICellBackgroundView.m; sourceTree = "<group>"; };
+		8EE860C319071C780095CCC5 /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		8EE860C419071C780095CCC5 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		8EE860C519071C780095CCC5 /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		8EE860C619071C780095CCC5 /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		8EE860C719071C780095CCC5 /* FUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISwitch.h; sourceTree = "<group>"; };
+		8EE860C819071C780095CCC5 /* FUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISwitch.m; sourceTree = "<group>"; };
+		8EE860C919071C780095CCC5 /* FUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUITextField.h; sourceTree = "<group>"; };
+		8EE860CA19071C780095CCC5 /* FUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUITextField.m; sourceTree = "<group>"; };
+		8EE860CB19071C780095CCC5 /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860CC19071C780095CCC5 /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860CD19071C780095CCC5 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860CE19071C780095CCC5 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860CF19071C780095CCC5 /* UIFont+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860D019071C780095CCC5 /* UIFont+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860D119071C780095CCC5 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860D219071C780095CCC5 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860D319071C790095CCC5 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860D419071C790095CCC5 /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860D519071C790095CCC5 /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860D619071C790095CCC5 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860D719071C790095CCC5 /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860D819071C790095CCC5 /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860D919071C790095CCC5 /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860DA19071C790095CCC5 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860DB19071C790095CCC5 /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860DC19071C790095CCC5 /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860DD19071C790095CCC5 /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860DE19071C790095CCC5 /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860DF19071C790095CCC5 /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860E019071C790095CCC5 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860E119071C790095CCC5 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		8EE860E219071C790095CCC5 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
+		8EE860F619071F980095CCC5 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		8EE860F719071F980095CCC5 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		8EE860F819071F980095CCC5 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		8EE860F919071F980095CCC5 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDF86DA18F43109002E8166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDF86E318F43109002E8166 /* CoreGraphics.framework in Frameworks */,
+				8EDF86E518F43109002E8166 /* UIKit.framework in Frameworks */,
+				8EDF86E118F43109002E8166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDF86FE18F43109002E8166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDF870318F43109002E8166 /* XCTest.framework in Frameworks */,
+				8EDF870518F43109002E8166 /* UIKit.framework in Frameworks */,
+				8EDF870418F43109002E8166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDF86D418F43109002E8166 = {
+			isa = PBXGroup;
+			children = (
+				8EE860BC19071BE70095CCC5 /* FlatUIKit */,
+				8EDF876419023026002E8166 /* JSONKIT */,
+				8EDF86E618F43109002E8166 /* HotelApp */,
+				8EDF870818F43109002E8166 /* HotelAppTests */,
+				8EDF86DF18F43109002E8166 /* Frameworks */,
+				8EDF86DE18F43109002E8166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDF86DE18F43109002E8166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF86DD18F43109002E8166 /* HotelApp.app */,
+				8EDF870118F43109002E8166 /* HotelAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDF86DF18F43109002E8166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF86E018F43109002E8166 /* Foundation.framework */,
+				8EDF86E218F43109002E8166 /* CoreGraphics.framework */,
+				8EDF86E418F43109002E8166 /* UIKit.framework */,
+				8EDF870218F43109002E8166 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EDF86E618F43109002E8166 /* HotelApp */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF871B18F43D18002E8166 /* HTLDetallesViewController.h */,
+				8EDF871C18F43D18002E8166 /* HTLDetallesViewController.m */,
+				8EDF871818F43CE0002E8166 /* HTLCandadoViewController.h */,
+				8EDF871918F43CE0002E8166 /* HTLCandadoViewController.m */,
+				8EDF86EF18F43109002E8166 /* HTLAppDelegate.h */,
+				8EDF86F018F43109002E8166 /* HTLAppDelegate.m */,
+				8EDF86F218F43109002E8166 /* Main.storyboard */,
+				8EDF86F518F43109002E8166 /* HTLFirstViewController.h */,
+				8EDF86F618F43109002E8166 /* HTLFirstViewController.m */,
+				8EDF86F818F43109002E8166 /* HTLSecondViewController.h */,
+				8EDF86F918F43109002E8166 /* HTLSecondViewController.m */,
+				8EDF86FB18F43109002E8166 /* Images.xcassets */,
+				8EDF86E718F43109002E8166 /* Supporting Files */,
+			);
+			path = HotelApp;
+			sourceTree = "<group>";
+		};
+		8EDF86E718F43109002E8166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF86E818F43109002E8166 /* HotelApp-Info.plist */,
+				8EDF86E918F43109002E8166 /* InfoPlist.strings */,
+				8EDF86EC18F43109002E8166 /* main.m */,
+				8EDF86EE18F43109002E8166 /* HotelApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EDF870818F43109002E8166 /* HotelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF870E18F43109002E8166 /* HotelAppTests.m */,
+				8EDF870918F43109002E8166 /* Supporting Files */,
+			);
+			path = HotelAppTests;
+			sourceTree = "<group>";
+		};
+		8EDF870918F43109002E8166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF870A18F43109002E8166 /* HotelAppTests-Info.plist */,
+				8EDF870B18F43109002E8166 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EDF876419023026002E8166 /* JSONKIT */ = {
+			isa = PBXGroup;
+			children = (
+				8EDF876519023054002E8166 /* JSONKit.h */,
+				8EDF876619023054002E8166 /* JSONKit.m */,
+			);
+			name = JSONKIT;
+			sourceTree = "<group>";
+		};
+		8EE860BC19071BE70095CCC5 /* FlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8EE860F619071F980095CCC5 /* Lato-Bold.ttf */,
+				8EE860F719071F980095CCC5 /* Lato-Italic.ttf */,
+				8EE860F819071F980095CCC5 /* Lato-Light.ttf */,
+				8EE860F919071F980095CCC5 /* Lato-Regular.ttf */,
+				8EE860BD19071C780095CCC5 /* FUIAlertView.h */,
+				8EE860BE19071C780095CCC5 /* FUIAlertView.m */,
+				8EE860BF19071C780095CCC5 /* FUIButton.h */,
+				8EE860C019071C780095CCC5 /* FUIButton.m */,
+				8EE860C119071C780095CCC5 /* FUICellBackgroundView.h */,
+				8EE860C219071C780095CCC5 /* FUICellBackgroundView.m */,
+				8EE860C319071C780095CCC5 /* FUIPopoverBackgroundView.h */,
+				8EE860C419071C780095CCC5 /* FUIPopoverBackgroundView.m */,
+				8EE860C519071C780095CCC5 /* FUISegmentedControl.h */,
+				8EE860C619071C780095CCC5 /* FUISegmentedControl.m */,
+				8EE860C719071C780095CCC5 /* FUISwitch.h */,
+				8EE860C819071C780095CCC5 /* FUISwitch.m */,
+				8EE860C919071C780095CCC5 /* FUITextField.h */,
+				8EE860CA19071C780095CCC5 /* FUITextField.m */,
+				8EE860CB19071C780095CCC5 /* UIBarButtonItem+FlatUI.h */,
+				8EE860CC19071C780095CCC5 /* UIBarButtonItem+FlatUI.m */,
+				8EE860CD19071C780095CCC5 /* UIColor+FlatUI.h */,
+				8EE860CE19071C780095CCC5 /* UIColor+FlatUI.m */,
+				8EE860CF19071C780095CCC5 /* UIFont+FlatUI.h */,
+				8EE860D019071C780095CCC5 /* UIFont+FlatUI.m */,
+				8EE860D119071C780095CCC5 /* UIImage+FlatUI.h */,
+				8EE860D219071C780095CCC5 /* UIImage+FlatUI.m */,
+				8EE860D319071C790095CCC5 /* UINavigationBar+FlatUI.h */,
+				8EE860D419071C790095CCC5 /* UINavigationBar+FlatUI.m */,
+				8EE860D519071C790095CCC5 /* UIPopoverController+FlatUI.h */,
+				8EE860D619071C790095CCC5 /* UIPopoverController+FlatUI.m */,
+				8EE860D719071C790095CCC5 /* UIProgressView+FlatUI.h */,
+				8EE860D819071C790095CCC5 /* UIProgressView+FlatUI.m */,
+				8EE860D919071C790095CCC5 /* UISlider+FlatUI.h */,
+				8EE860DA19071C790095CCC5 /* UISlider+FlatUI.m */,
+				8EE860DB19071C790095CCC5 /* UIStepper+FlatUI.h */,
+				8EE860DC19071C790095CCC5 /* UIStepper+FlatUI.m */,
+				8EE860DD19071C790095CCC5 /* UITabBar+FlatUI.h */,
+				8EE860DE19071C790095CCC5 /* UITabBar+FlatUI.m */,
+				8EE860DF19071C790095CCC5 /* UITableViewCell+FlatUI.h */,
+				8EE860E019071C790095CCC5 /* UITableViewCell+FlatUI.m */,
+				8EE860E119071C790095CCC5 /* UIToolbar+FlatUI.h */,
+				8EE860E219071C790095CCC5 /* UIToolbar+FlatUI.m */,
+			);
+			name = FlatUIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDF86DC18F43109002E8166 /* HotelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDF871218F43109002E8166 /* Build configuration list for PBXNativeTarget "HotelApp" */;
+			buildPhases = (
+				8EDF86D918F43109002E8166 /* Sources */,
+				8EDF86DA18F43109002E8166 /* Frameworks */,
+				8EDF86DB18F43109002E8166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelApp;
+			productName = HotelApp;
+			productReference = 8EDF86DD18F43109002E8166 /* HotelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EDF870018F43109002E8166 /* HotelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDF871518F43109002E8166 /* Build configuration list for PBXNativeTarget "HotelAppTests" */;
+			buildPhases = (
+				8EDF86FD18F43109002E8166 /* Sources */,
+				8EDF86FE18F43109002E8166 /* Frameworks */,
+				8EDF86FF18F43109002E8166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EDF870718F43109002E8166 /* PBXTargetDependency */,
+			);
+			name = HotelAppTests;
+			productName = HotelAppTests;
+			productReference = 8EDF870118F43109002E8166 /* HotelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDF86D518F43109002E8166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HTL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jChavez17;
+				TargetAttributes = {
+					8EDF870018F43109002E8166 = {
+						TestTargetID = 8EDF86DC18F43109002E8166;
+					};
+				};
+			};
+			buildConfigurationList = 8EDF86D818F43109002E8166 /* Build configuration list for PBXProject "HotelApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDF86D418F43109002E8166;
+			productRefGroup = 8EDF86DE18F43109002E8166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDF86DC18F43109002E8166 /* HotelApp */,
+				8EDF870018F43109002E8166 /* HotelAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDF86DB18F43109002E8166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8E6B9E19080DE2001AD403 /* Lato-Italic.ttf in Resources */,
+				8EDF86FC18F43109002E8166 /* Images.xcassets in Resources */,
+				8EDF86EB18F43109002E8166 /* InfoPlist.strings in Resources */,
+				8E8E6B9F19080DE6001AD403 /* Lato-Light.ttf in Resources */,
+				8E8E6BA019080DEA001AD403 /* Lato-Regular.ttf in Resources */,
+				8EDF86F418F43109002E8166 /* Main.storyboard in Resources */,
+				8E8E6B9D19080DDE001AD403 /* Lato-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDF86FF18F43109002E8166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDF870D18F43109002E8166 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDF86D918F43109002E8166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE860EC19071C790095CCC5 /* UIFont+FlatUI.m in Sources */,
+				8EE860E319071C790095CCC5 /* FUIAlertView.m in Sources */,
+				8EE860F419071C790095CCC5 /* UITableViewCell+FlatUI.m in Sources */,
+				8EE860F019071C790095CCC5 /* UIProgressView+FlatUI.m in Sources */,
+				8EDF86F718F43109002E8166 /* HTLFirstViewController.m in Sources */,
+				8EE860EE19071C790095CCC5 /* UINavigationBar+FlatUI.m in Sources */,
+				8EE860EF19071C790095CCC5 /* UIPopoverController+FlatUI.m in Sources */,
+				8EDF86ED18F43109002E8166 /* main.m in Sources */,
+				8EE860E819071C790095CCC5 /* FUISwitch.m in Sources */,
+				8EDF86F118F43109002E8166 /* HTLAppDelegate.m in Sources */,
+				8EDF871D18F43D18002E8166 /* HTLDetallesViewController.m in Sources */,
+				8EE860E619071C790095CCC5 /* FUIPopoverBackgroundView.m in Sources */,
+				8EE860E419071C790095CCC5 /* FUIButton.m in Sources */,
+				8EE860EB19071C790095CCC5 /* UIColor+FlatUI.m in Sources */,
+				8EDF86FA18F43109002E8166 /* HTLSecondViewController.m in Sources */,
+				8EE860F319071C790095CCC5 /* UITabBar+FlatUI.m in Sources */,
+				8EE860E519071C790095CCC5 /* FUICellBackgroundView.m in Sources */,
+				8EE860ED19071C790095CCC5 /* UIImage+FlatUI.m in Sources */,
+				8EE860E919071C790095CCC5 /* FUITextField.m in Sources */,
+				8EE860F119071C790095CCC5 /* UISlider+FlatUI.m in Sources */,
+				8EE860F219071C790095CCC5 /* UIStepper+FlatUI.m in Sources */,
+				8EE860E719071C790095CCC5 /* FUISegmentedControl.m in Sources */,
+				8EDF876719023054002E8166 /* JSONKit.m in Sources */,
+				8EDF871A18F43CE0002E8166 /* HTLCandadoViewController.m in Sources */,
+				8EE860F519071C790095CCC5 /* UIToolbar+FlatUI.m in Sources */,
+				8EE860EA19071C790095CCC5 /* UIBarButtonItem+FlatUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDF86FD18F43109002E8166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDF870F18F43109002E8166 /* HotelAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EDF870718F43109002E8166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EDF86DC18F43109002E8166 /* HotelApp */;
+			targetProxy = 8EDF870618F43109002E8166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EDF86E918F43109002E8166 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDF86EA18F43109002E8166 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EDF86F218F43109002E8166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDF86F318F43109002E8166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EDF870B18F43109002E8166 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDF870C18F43109002E8166 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDF871018F43109002E8166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EDF871118F43109002E8166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDF871318F43109002E8166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelApp/HotelApp-Prefix.pch";
+				INFOPLIST_FILE = "HotelApp/HotelApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EDF871418F43109002E8166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelApp/HotelApp-Prefix.pch";
+				INFOPLIST_FILE = "HotelApp/HotelApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8EDF871618F43109002E8166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotelApp.app/HotelApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelApp/HotelApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HotelAppTests/HotelAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8EDF871718F43109002E8166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotelApp.app/HotelApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelApp/HotelApp-Prefix.pch";
+				INFOPLIST_FILE = "HotelAppTests/HotelAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDF86D818F43109002E8166 /* Build configuration list for PBXProject "HotelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDF871018F43109002E8166 /* Debug */,
+				8EDF871118F43109002E8166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDF871218F43109002E8166 /* Build configuration list for PBXNativeTarget "HotelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDF871318F43109002E8166 /* Debug */,
+				8EDF871418F43109002E8166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDF871518F43109002E8166 /* Build configuration list for PBXNativeTarget "HotelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDF871618F43109002E8166 /* Debug */,
+				8EDF871718F43109002E8166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EDF86D518F43109002E8166 /* Project object */;
+}
