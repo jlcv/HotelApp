@@ -35,6 +35,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="LoginButtonTouchUpInside:" destination="CZ4-MO-1fc" eventType="editingDidEndOnExit" id="YE7-js-lLn"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj1-LR-bnz" customClass="FUIButton">
                                 <rect key="frame" x="116" y="343" width="88" height="46"/>
@@ -42,6 +45,9 @@
                                 <state key="normal" title="Entrar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="LoginButtonTouchUpInside:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="m8T-tk-cie"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

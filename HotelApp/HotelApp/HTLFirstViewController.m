@@ -11,6 +11,7 @@
 #import "UIColor+FlatUI.h"
 #import "FUIButton.h"
 #import "UIFont+FlatUI.h"
+#import "FUIAlertView.h"
 
 
 @interface HTLFirstViewController ()
@@ -51,7 +52,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
+/*- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     NSLog(@"Want to redeem: %@", textField.text);
     
@@ -74,6 +75,7 @@
     
     return TRUE;
 }
+ */
 
 - (BOOL)fetchLoginInfo:(UITextField *)textField
 {
@@ -82,4 +84,28 @@
 
 
 
+- (IBAction)LoginButtonTouchUpInside:(id)sender
+{
+    FUIAlertView *alertView = [[FUIAlertView alloc] initWithTitle:@"Hello"
+                                                          message:@"This is an alert view"
+                                                         delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:@"Do Something", nil];
+    alertView.titleLabel.textColor = [UIColor cloudsColor];
+    alertView.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+    alertView.messageLabel.textColor = [UIColor cloudsColor];
+    alertView.messageLabel.font = [UIFont flatFontOfSize:14];
+    alertView.backgroundOverlay.backgroundColor = [[UIColor cloudsColor] colorWithAlphaComponent:0.8];
+    alertView.alertContainer.backgroundColor = [UIColor midnightBlueColor];
+    alertView.defaultButtonColor = [UIColor cloudsColor];
+    alertView.defaultButtonShadowColor = [UIColor asbestosColor];
+    alertView.defaultButtonFont = [UIFont boldFlatFontOfSize:16];
+    alertView.defaultButtonTitleColor = [UIColor asbestosColor];
+    [alertView show];
+    
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)sender
+{
+    [sender resignFirstResponder];
+    return YES;
+}
 @end

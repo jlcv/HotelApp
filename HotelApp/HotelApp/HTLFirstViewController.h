@@ -18,5 +18,6 @@
 @property (strong, nonatomic) IBOutlet UIView *loginView;
 @property (strong, nonatomic) IBOutlet UILabel *loginTitleLbl;
 @property (strong, nonatomic) IBOutlet UILabel *passwordLbl;
+- (IBAction)LoginButtonTouchUpInside:(id)sender;
 
 @end
