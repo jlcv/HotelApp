@@ -11,5 +11,18 @@
 @interface HTLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic, readwrite) NSString *lblRoom;
+@property (retain, nonatomic, readwrite) NSString *lblCheckout;
+@property (retain, nonatomic, readwrite) NSString *lblWifi;
+@property (retain, nonatomic, readwrite) NSString *lblFrontDesk;
+@property (retain, nonatomic, readwrite) NSString *lblNombre;
+@property (retain, nonatomic, readwrite) NSString *lblPool;
+@property (retain, nonatomic, readwrite) NSString *lblRoomServ;
+@property (retain, nonatomic, readwrite) NSString *lblWakeUpService;
+@property (retain, nonatomic, readwrite) NSString *lblIceM;
+@property (retain, nonatomic, readwrite) NSString *lblVendingM;
+
+
+
 
 @end

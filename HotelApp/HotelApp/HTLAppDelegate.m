@@ -10,6 +10,7 @@
 #import "UIFont+FlatUI.h"
 #import "UIColor+FlatUI.h"
 
+
 @implementation HTLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -46,5 +47,16 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+@synthesize lblRoom;
+@synthesize lblCheckout;
+@synthesize lblWifi;
+@synthesize lblFrontDesk;
+@synthesize lblIceM;
+@synthesize lblNombre;
+@synthesize lblPool;
+@synthesize lblRoomServ;
+@synthesize lblVendingM;
+@synthesize lblWakeUpService;
 
 @end

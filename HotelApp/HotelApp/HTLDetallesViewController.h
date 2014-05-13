@@ -11,8 +11,13 @@
 @interface HTLDetallesViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *accountTitleLbl;
 
-@property (strong, nonatomic) IBOutlet UILabel *labelRoom;
-@property (strong, nonatomic) IBOutlet UILabel *labelCheckout;
-@property (strong, nonatomic) IBOutlet UIView *accountView;
-@property (strong, nonatomic) IBOutlet UILabel *labelWifi;
+@property (weak, nonatomic) IBOutlet UILabel *labelRoom;
+@property (weak, nonatomic) IBOutlet UILabel *labelCheckout;
+@property (retain, nonatomic) IBOutlet UIView *accountView;
+@property (weak, nonatomic) IBOutlet UILabel *labelWifi;
+
+@property (retain, nonatomic) NSString *roomValue;
+@property (retain, nonatomic) NSString *checkoutValue;
+@property (retain, nonatomic) NSString *Wifi;
+
 @end

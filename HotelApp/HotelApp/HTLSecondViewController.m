@@ -9,6 +9,8 @@
 #import "HTLSecondViewController.h"
 #import "UIColor+FlatUI.h"
 #import "UIFont+FlatUI.h"
+#import "HTLFirstViewController.h"
+#import "HTLAppDelegate.h"
 
 @interface HTLSecondViewController ()
 
@@ -37,6 +39,29 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    @try
+    {
+        HTLAppDelegate *appDel = (HTLAppDelegate *)[[UIApplication sharedApplication] delegate];
+        _labelIFD.text = appDel.lblFrontDesk;
+        _labelIM.text = appDel.lblIceM;
+        _labelIRS.text = appDel.lblRoomServ;
+        _labelP.text = appDel.lblPool;
+        _labelVM.text = appDel.lblVendingM;
+        _labelWUS.text = appDel.lblWakeUpService;
+    }
+    @catch (NSException *exc)
+    {
+        NSLog(@"%@", exc);
+    }
+}
+
++ (void) updateRoomNumber
+{
+    
 }
 
 @end

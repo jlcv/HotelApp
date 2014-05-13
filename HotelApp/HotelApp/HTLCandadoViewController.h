@@ -17,5 +17,11 @@
 @property (strong, nonatomic) IBOutlet UILabel *lockTitleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *roomLbl;
 @property (strong, nonatomic) IBOutlet UILabel *lockPasswordLbl;
+@property (strong, nonatomic) IBOutlet UILabel *roomNumberLbl;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTxt;
+
+- (IBAction)abrirCandado:(id)sender;
+
++(void) readyLock;
 
 @end

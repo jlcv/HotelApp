@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FUIButton.h"
 #import "UIColor+FlatUI.h"
+#import "HTLSecondViewController.h"
 
 @interface HTLFirstViewController : UIViewController <UITextFieldDelegate>
 

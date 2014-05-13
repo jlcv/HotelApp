@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HTLFirstViewController.h"
 
 @interface HTLSecondViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *servicesTitleLbl;
@@ -19,5 +20,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelIM;
 @property (strong, nonatomic) IBOutlet UIView *servicesView;
 
+
++(void) updateRoomNumber;
 
 @end

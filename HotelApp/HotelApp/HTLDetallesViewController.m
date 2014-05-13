@@ -9,8 +9,13 @@
 #import "HTLDetallesViewController.h"
 #import "UIColor+FlatUI.h"
 #import "FUIButton.h"
+#import "HTLAppDelegate.h"
 
 @interface HTLDetallesViewController ()
+
+
+//@property HTLAppDelegate *app;
+
 
 @end
 
@@ -37,6 +42,8 @@
     _labelRoom.font = [UIFont fontWithName:@"Lato" size:17];
     _labelWifi.font = [UIFont fontWithName:@"Lato" size:17];
     
+    //_app = (HTLAppDelegate *)[[UIApplication sharedApplication] delegate];
+    
 }
 
 -(void)didReceiveMemoryWarning
@@ -56,12 +63,40 @@
 }
 */
 
-- (void)getAccountInformation
+
+- (void)updateAccountInformation
 {
-    _labelRoom.Text = @"1406";
-    _labelCheckout.Text = @"12 Apr 2014";
-    _labelWifi.Text = @"Free";
+    @try
+    {
+    HTLAppDelegate *appDel = (HTLAppDelegate *)[[UIApplication sharedApplication] delegate];
+        NSLog(@"what");
+        NSString *roomString = appDel.lblRoom;
+        NSLog(@"%@",roomString);
+        NSString *checkoutString = appDel.lblCheckout;
+        NSLog(@"%@", checkoutString);
+        NSString *wifiString = appDel.lblWifi;
+        NSLog(@"%@", wifiString);
+    _labelRoom.Text = roomString;
+    _labelCheckout.Text = checkoutString;
+    _labelWifi.Text = wifiString;
+    }
+    @catch (NSException *exc)
+    {
+        NSLog(@"%@", exc);
+    }
+    
 }
 
+- (void) viewDidAppear:(BOOL)animated
+{
+    [self updateAccountInformation];
+    
+    //NSLog(@"%@", roomValue);
+    //_labelRoom.text = roomValue;
+}
+
+@synthesize roomValue;
+@synthesize Wifi;
+@synthesize checkoutValue;
 
 @end
